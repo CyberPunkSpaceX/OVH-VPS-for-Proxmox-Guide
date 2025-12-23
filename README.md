@@ -1,4 +1,4 @@
-his is the complete technical blueprint for your Debian 13 Proxmox setup on OVH. This configuration ensures IP Symmetry (VM2 uses the Secondary IP for both in/out traffic), Strict Lockdown (Management ports are hidden), and Automation (FQDNs update automatically).
+This is the complete technical blueprint for your Debian 13 Proxmox setup on OVH. This configuration ensures IP Symmetry (VM2 uses the Secondary IP for both in/out traffic), Strict Lockdown (Management ports are hidden), and Automation (FQDNs update automatically).
 Phase 1: Host Network Configuration
 
 Edit your Proxmox host network file to create the internal "lanes" for your VMs.
